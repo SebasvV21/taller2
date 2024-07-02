@@ -1,0 +1,272 @@
+body{
+    background-color: #0C043E;
+    background-image: url(data/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+}
+h1{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    font-style: normal;
+    margin: 0%;
+}
+h2{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    font-style: normal;
+    margin: 0%;
+}
+h3{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    margin: 0%;
+}
+h4{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    margin: 0px;
+}
+p{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0%;
+}
+a{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    margin: 0%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.categorias{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.categorias a{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.categorias img{
+    margin-right: 0%;
+    margin-left: 0px;
+    height: 38px;
+}
+.categorias button{
+    align-self: end;
+    background-color: #01C5FF;
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    width: 155px;
+    height: 36px;
+    border-radius: 6px;
+    margin-left: 45px;
+}
+
+/* banner */
+.banner{
+    margin-top: 50px;
+    background-image: url(data/fondo-banner.png);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.banner .text{
+    width: 946px;
+    margin-left: 133px;
+
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.banner button{
+    align-self:end;
+    width: 213px;
+    height: 36px;
+    border-radius: 6px;
+    color: white;
+    background-color: #01C5FF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-right: 133px;
+}
+/* portada */
+.port{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.portada{
+    width: 100%;
+    margin-top: 86px;
+    margin-left: 133px;
+    margin-right: 133px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;}
+.portada .card-h1{
+font-size: 24px;
+align-items: start;
+}
+.portada .card-h2{
+align-items:end;
+font-size: 20px;
+width: 353px;
+}
+.cards{
+    margin-right: 133px;
+    margin-left: 133px;
+}
+.cards img{
+    width: 270px;
+    height: 180px;
+}
+.card-h3{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nota-1 .nota-2 .nota-3 .nota-4{
+    padding: 28px;
+    align-items: center;
+}
+.Iconos{
+    margin-top: 100px;
+    background-image: url(data/fondo-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top:100px ;
+    padding-bottom: 100px;
+
+}
+.Iconos .cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 145px;
+    margin-left: 145px;
+}
+.Iconos img {
+    height: 300px;
+}
+.Iconos h2,.Iconos h4{
+    margin-right: 145px;
+    margin-left: 145px;
+    margin-bottom: 10px;
+    width: 690px;
+}
+
+/* artistas y agenda */
+.ar-ag{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 133px;
+    margin-right: 133px;
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+}
+.artistas img{
+    margin-top: 20px;
+}
+.artistas h3{
+    margin-top: 15px;
+}
+.agenda{
+    margin-left: 137px;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.c-1{
+    display: block;
+    margin-top: 33px;
+}
+.ar-ag button{
+    background-color: #01C5FF;
+    color: azure;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 36px;
+    border-radius: 6px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.texto{
+    padding-top: 50px;
+    margin-left: 133px;
+}
+.texto h2{
+    color: #01C5FF;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+}
+.texto h4{
+    padding-top: 35px;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+}
+.redes{
+    display: block;
+    padding-top: 50px;
+    margin-right: 133px;
+    margin-bottom: 103px;
+}
+.redes img{
+    padding-left: 31px;
+    padding-right: 31px;
+}
+.redes h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
